@@ -12,7 +12,7 @@ const adder = new Vue({
       const i = parseInt(this.grade1)
       const j = this.grade2         
       const k=  this.grade3          
-      return  `your average is ${average_cal(i, j,k)}.`
+      return  `Your average is ${average_cal(i, j,k)}.`
     }
   }
 })

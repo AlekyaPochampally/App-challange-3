@@ -10,8 +10,8 @@ const adder = new Vue({
   computed: {
     average: function () {
       const i = parseInt(this.grade1)
-      const j = this.grade2         
-      const k=  this.grade3          
+      const j = parseInt(this.grade2)      
+      const k=  parseInt(this.grade3)
       return  `Your average is ${average_cal(i, j,k)}.`
     }
   }
